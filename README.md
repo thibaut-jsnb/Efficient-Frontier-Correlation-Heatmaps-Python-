@@ -3,11 +3,12 @@ Simulates 100k portfolios (yfinance) to plot the efficient frontier, CAL, and co
 
 How to Use:
 1. Configure
-     - choose the tickers you want to use by changing this data frame (ETF, Stocks, crypto): df1 = pd.DataFrame(["BNP.PA", "MC.PA", "TTE.PA", "AIR.PA", "BN.PA"], columns=["Tickers"])
+     - choose the tickers you want to use by changing this (ETF, Stocks, crypto): tickers = ["MSFT", "AAPL", "GOOGL", "NVDA", "PG"]
+
 2. Set the analysis period
-     - choose the time period (Line 16-17), 5 years is a good number to start
+     - choose the time period (Line 23-24), 5 years is a good number to start
 3. Risk-free rate (annual, decimal)
-     - choose the right rf rate (line 18)
+     - choose the right rf rate (line 109)
 4. Risk aversion of the investor
      - will affect the indifference curve
 5. Information for the pdf
