@@ -1,5 +1,4 @@
 # Efficient-Frontier-Correlation-Heatmaps-Python
-## I will try to improve the code structure because it is sometimes messy
 Simulates 100k portfolios (yfinance) to plot the efficient frontier, CAL, and correlation heatmap, ships a compact PDF report.
 
 How to Use:
